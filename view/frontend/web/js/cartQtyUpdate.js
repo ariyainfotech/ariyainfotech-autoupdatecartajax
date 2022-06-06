@@ -5,7 +5,7 @@ define([
 ], function ($, getTotalsAction, customerData) {
 
     $(document).ready(function(){
-        $(document).on('change', '.input-text.qty.cust', function(){
+        $(document).on('change', '.input-text.qty', function(){
             var form = $('form#form-validate');
             $.ajax({
                 url: form.attr('action'),
